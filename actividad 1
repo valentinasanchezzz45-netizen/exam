@@ -1,5 +1,5 @@
 import pandas as pd 
-df=pd.read_csv('studentsperformance (1) (1).csv')
+df=pd.read_csv('studentsperformance.csv')
 print(df['gender','lunch','math score'])
 print(df.head(12))
 print(df.tail(8))
