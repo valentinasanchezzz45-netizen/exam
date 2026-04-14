@@ -1,5 +1,5 @@
 import pandas as pd 
-df=pd.read_csv('studentsPerformace (1) (1).cvs')
+df=pd.read_csv('studentsPerformace.cvs')
 print(df[['gender','race/ethnicity']])
 print(df.dtypes)
 print(df.tail(10))
